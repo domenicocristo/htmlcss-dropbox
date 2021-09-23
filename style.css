@@ -6,9 +6,6 @@
 }
 
 /* Intestazione */
-body {
-    position: relative;
-}
 nav {
     height: 7vh;
     width: 100vw;
@@ -61,6 +58,7 @@ header div {
     width: 30vw;
     padding-top: 30px;
     padding-left: 100px;
+    display: inline-block;
 }
 
 .header-button-blue {
@@ -93,13 +91,50 @@ header i {
 header img {
     height: 450px;
     width: 800px;
-    position: absolute;
-    right: 10vw;
-    top: 30vh;
+    float: right;
+    margin-right: 180px;
+    margin-top: 20px;
 }
 /* /Intestazione */
 
 /* Corpo della pagina */
 main {
     height: 100vh;
+}
+
+#clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#clearfix {
+    float: left;
+    margin-top: 250px;
+    margin-left: 15%;
+}
+
+section h1 {
+    width: 80vw;
+    font-size: 40px;
+    
+}
+
+section input {
+    margin-top: 70px;
+}
+
+section label {
+    padding-top: 70px;
+    padding-right: 10px;
+}
+
+.colums-tariff {
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border: solid 1px;
+   
 }
