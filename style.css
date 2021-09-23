@@ -138,3 +138,9 @@ section label {
     border: solid 1px;
    
 }
+
+.colums-tariff div {
+    padding: 10px;
+    border-bottom: solid 1px;
+    text-align: center;
+}
