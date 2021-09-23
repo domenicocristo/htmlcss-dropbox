@@ -99,7 +99,7 @@ header img {
 
 /* Corpo della pagina */
 main {
-    height: 100vh;
+    height: 200vh;
 }
 
 #clearfix:after {
@@ -131,10 +131,10 @@ section label {
 
 .colums-tariff {
     display: inline-block;
-    width: 350px;
+    width: 325px;
     height: 700px;
     margin-top: 40px;
-    margin-right: 60px;
+    margin-right: 45px;
     border: solid 1px;
    
 }
@@ -156,4 +156,29 @@ section label {
 
 .container-colums li {
     list-style-type: none;
+}
+
+.colums-o {
+    display: inline-block;
+    width: 70vw;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border: solid 1px;
+   
+}
+
+.header-colums-o {
+    padding: 10px;
+    border-bottom: solid 1px;
+    text-align: center;
+}
+
+.colums-o h2 {
+    display: inline;
+}
+
+.colums-o button {
+    float: right;
+    margin: 10px;
 }
