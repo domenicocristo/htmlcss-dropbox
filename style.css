@@ -139,8 +139,21 @@ section label {
    
 }
 
-.colums-tariff div {
+.header-colums {
     padding: 10px;
     border-bottom: solid 1px;
     text-align: center;
+}
+
+.font-grey {
+    color: grey;
+}
+
+.container-colums {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.container-colums li {
+    list-style-type: none;
 }
