@@ -12,16 +12,22 @@ nav {
     position: fixed;
     top: 0;
     background-color: white;
+    border-bottom: solid 1px grey;
+}
+
+nav img {
+    float: left;
+    padding: 15px 20px 10px 20px;
 }
 
 #nav-left {
     float: left;
-    padding: 20px;
+    padding: 15px 20px 10px 20px;
 }
 
 #nav-right {
     float: right;
-    padding: 20px;
+    padding: 15px 20px 10px 20px;
 }
 
 .nav-button {
@@ -98,10 +104,7 @@ header img {
 /* /Intestazione */
 
 /* Corpo della pagina */
-main {
-    height: 200vh;
-}
-
+/* Colonne verticali */
 #clearfix:after {
     content: "";
     display: table;
@@ -131,10 +134,10 @@ section label {
 
 .colums-tariff {
     display: inline-block;
-    width: 325px;
+    width: 25%;
     height: 700px;
     margin-top: 40px;
-    margin-right: 45px;
+    margin-right: 3.4%;
     border: solid 1px;
    
 }
@@ -157,11 +160,13 @@ section label {
 .container-colums li {
     list-style-type: none;
 }
+/* /Colonne verticali */
 
+/* Colonna orizzonatale */
 .colums-o {
     display: inline-block;
     width: 70vw;
-    height: 250px;
+    height: 200px;
     margin-top: 40px;
     margin-right: 60px;
     border: solid 1px;
@@ -182,3 +187,39 @@ section label {
     float: right;
     margin: 10px;
 }
+
+.container-colums div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* /Colonna orizzonatale */
+
+#img-partner {
+    height: 520px;
+    width: 650px;
+    margin-top: 150px;
+}
+
+#testo-partner {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding-left: 40px;
+}
+
+/* Blocchi */
+.blocchi {
+    display: inline-block;
+    height: 300px;
+    width: 320px;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+
+.blocchi img{
+    height: 300px;
+    width: 320px;
+}
+
+
+/* /Blocchi */
