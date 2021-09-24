@@ -366,14 +366,86 @@ section label {
 /* /Blocchi loghi */
 
 #prova-gratuita {
+    display: inline-block;
     margin-left: -15%;
-    height: 300px;
+    height: 400px;
     width: 100vw;
     background-color: hsl(207deg 52% 81%);
 }
 
 #prova-gratuita h1 {
-    padding-top: 100px;
+    padding-top: 10%;
     padding-left: 15%;
+    width: 50%;
     display: inline-block;
+    color: hsl(337deg 81% 21%);
 }
+
+#prova-gratuita button {
+    margin-left: 20%;
+    background-color: white;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+
+#domande-frequenti h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#domande-frequenti h3 {
+    display: inline-block;
+    width: 70%;
+    border-top: solid 1px hsl(240deg 3% 88%);
+    padding-top: 30px;
+    padding-bottom: 30px;;
+}
+
+#domande-frequenti i {
+    padding-left: 35%;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    display: inline-block;
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#container-footer {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.colonne-footer {
+    margin-top: 100px;
+    width: calc(5 / 80vw);
+    padding-left: 5%;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+}
+
+.colonne-footer h3 {
+    margin-bottom: 15px;
+}
+
+.colonne-footer li {
+    list-style-type: none;
+}
+
+#lingua {
+    width: 10vw;
+    color: grey;
+    cursor: pointer;
+    border-top: solid 1px gray;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-left: 4vw;
+}
+/* /Footer */
