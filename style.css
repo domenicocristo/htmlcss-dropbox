@@ -236,20 +236,30 @@ section label {
 
 /* Blocchi loghi */
 #container-blocchi-loghi {
-    margin-left: -18%;
+    margin-left: -15%;
     float: left;
+    width: 100vw;
 }
 
 #blocco-loghi-l {
     height: 400px;
-    width: 500px;
+    width: 30vw;
     float: left;
 }
 
-#a {
+.colonna-blocchi-l {
     float: left;
-    height: 200px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
+}
+
+.colonna-blocchi-r {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+#a {
     background-color: hsl(114deg 40% 72%);
 }
 
@@ -260,9 +270,6 @@ section label {
 }
 
 #b {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(336deg 85% 21%);
 }
 
@@ -273,9 +280,6 @@ section label {
 }
 
 #c {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(197deg 100% 40%);
 }
 
@@ -286,9 +290,6 @@ section label {
 }
 
 #d {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(0deg 100% 55%);
 }
 
@@ -298,16 +299,32 @@ section label {
     margin: 50px;
 }
 
+#blocco-loghi-c {
+    height: 400px;
+    width: 40vw;
+    float: left;
+    background-color: hsl(0deg 0% 96%);
+}
+
+#blocco-loghi-c img {
+    height: 100px;
+    width: 150px;
+    margin-left: 30px;
+    border-bottom: solid 1px rgb(177, 177, 177);
+}
+
+#blocco-loghi-c div {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
 #blocco-loghi-r {
     height: 400px;
-    width: 500px;
-    float: right;
+    width: 30vw;
+    float: left;
 }
 
 #e {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(352deg 99% 42%);
 }
 
@@ -318,9 +335,6 @@ section label {
 }
 
 #f {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(207deg 52% 81%);
 }
 
@@ -331,9 +345,6 @@ section label {
 }
 
 #g {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(229deg 80% 28%);
 }
 
@@ -344,9 +355,6 @@ section label {
 }
 
 #h {
-    float: left;
-    height: 200px;
-    width: 250px;
     background-color: hsl(49deg 100% 59%);
 }
 
@@ -354,4 +362,18 @@ section label {
     height: 100px;
     width: 150px;
     margin: 50px;
+}
+/* /Blocchi loghi */
+
+#prova-gratuita {
+    margin-left: -15%;
+    height: 300px;
+    width: 100vw;
+    background-color: hsl(207deg 52% 81%);
+}
+
+#prova-gratuita h1 {
+    padding-top: 100px;
+    padding-left: 15%;
+    display: inline-block;
 }
