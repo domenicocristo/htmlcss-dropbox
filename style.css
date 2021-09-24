@@ -48,7 +48,7 @@ nav img {
 
 header {
     height: 70vh;
-    background-color: rgb(173, 218, 255);
+    background-color: hsl(207deg 52% 81%);
     margin-top: 4vw;
 }
 
@@ -193,8 +193,8 @@ section label {
     padding-bottom: 10px;
 }
 /* /Colonna orizzonatale */
-
 #img-partner {
+    float: left;
     height: 520px;
     width: 650px;
     margin-top: 150px;
@@ -204,7 +204,9 @@ section label {
     display: inline-block;
     width: 400px;
     height: 300px;
+    padding-top: 170px;
     padding-left: 40px;
+    padding-bottom: 600px;
 }
 
 /* Blocchi */
@@ -220,6 +222,136 @@ section label {
     height: 300px;
     width: 320px;
 }
-
-
 /* /Blocchi */
+
+#clienti-dropbox {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#clienti-dropbox h1 {
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+/* Blocchi loghi */
+#container-blocchi-loghi {
+    margin-left: -18%;
+    float: left;
+}
+
+#blocco-loghi-l {
+    height: 400px;
+    width: 500px;
+    float: left;
+}
+
+#a {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(114deg 40% 72%);
+}
+
+#a img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#b {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(336deg 85% 21%);
+}
+
+#b img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#c {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(197deg 100% 40%);
+}
+
+#c img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#d {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(0deg 100% 55%);
+}
+
+#d img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#blocco-loghi-r {
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+
+#e {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(352deg 99% 42%);
+}
+
+#e img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#f {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(207deg 52% 81%);
+}
+
+#f img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#g {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(229deg 80% 28%);
+}
+
+#g img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
+
+#h {
+    float: left;
+    height: 200px;
+    width: 250px;
+    background-color: hsl(49deg 100% 59%);
+}
+
+#h img {
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+}
