@@ -18,6 +18,7 @@ nav {
 nav img {
     float: left;
     padding: 15px 20px 10px 20px;
+    cursor: pointer;
 }
 
 #nav-left {
@@ -88,10 +89,15 @@ header div {
     margin-left: 80px;
 }
 
+header a {
+    color: black;
+}
+
 header i {
     padding-left: 100px;
     padding-top: 20px;
     font-size: 40px;
+    cursor: pointer;
 }
 
 header img {
@@ -99,7 +105,7 @@ header img {
     width: 800px;
     float: right;
     margin-right: 180px;
-    margin-top: 20px;
+    margin-top: 4%;
 }
 /* /Intestazione */
 
@@ -228,7 +234,7 @@ section label {
     margin-top: 150px;
 }
 
-#testo-partner {
+#text-partner {
     display: inline-block;
     width: 400px;
     height: 300px;
@@ -237,7 +243,7 @@ section label {
     padding-bottom: 600px;
 }
 
-#testo-partner button {
+#text-partner button {
     font-size: 15px;
     padding: 7px 18px 7px 18px;
     background-color: white;
@@ -247,10 +253,10 @@ section label {
 }
 
 /* Blocchi */
-#container-blocchi {
+#container-blocks {
     width: 80vw;
 }
-.blocchi {
+.blocks {
     display: inline-block;
     height: 300px;
     width: calc(77% / 3);
@@ -258,11 +264,11 @@ section label {
     margin-right: 80px;
 }
 
-.blocchi h2 {
+.blocks h2 {
     margin-bottom: 15px;
 }
 
-.blocchi img{
+.blocks img{
     height: 300px;
     width: 320px;
     object-fit: cover;
@@ -284,7 +290,7 @@ section label {
 }
 
 /* Blocchi loghi */
-#container-blocchi-loghi {
+#container-blocks-logos {
     margin-left: -15%;
     float: left;
     width: 100vw;
